@@ -1,10 +1,13 @@
 Projet printF
+
 Table of content
+
 What is this project
 
 Building
 
 Usage
+
 
 Description of the implemented option
 
@@ -96,5 +99,6 @@ printBinary	Function used for the option %b to convert a number in decimal to it
 printNum.c	printUnsigned	Function used for the option %u to print an unsigned number.
 convert	Function used by all the conversion functions and the printS function, in order to convert a decimal number into a choosen bases, handle until base 16.
 printInt	Function used for the option %i or %d in order to print an integer.
+
 Contributor
 👬 This project was created by [Mezgebedingil Gezahegn] and [Yishak Kibru]
