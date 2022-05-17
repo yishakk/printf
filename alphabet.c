@@ -8,8 +8,8 @@
  */
 int printChar(va_list ap, flags_t *f)
 {
-(void)f;
-return (_putchar(va_arg(ap, int)));
+	(void)f;
+	return (_putchar(va_arg(ap, int)));
 }
 
 /**
@@ -18,15 +18,14 @@ return (_putchar(va_arg(ap, int)));
  * @f: pointer to the flags structure
  * Return: numbers of chars printed.
  */
-
 int printStr(va_list ap, flags_t *f)
 {
-char *str = va_arg(ap, char *);
+	char *str = va_arg(ap, char *);
 
-(void)f;
-if (str == NULL)
-	str = "(null)";
-return (_puts(str));
+	(void)f;
+	if (str == NULL)
+		str = "(null)";
+	return (_puts(str));
 }
 
 /**
@@ -38,7 +37,7 @@ return (_puts(str));
 
 int printModulo(va_list ap, flags_t *f)
 {
-(void)ap;
-(void)f;
-return (_putchar('%'));
+	(void)ap;
+	(void)f;
+	return (_putchar('%'));
 }
